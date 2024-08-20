@@ -1,0 +1,410 @@
+@import './publicStyle.css';
+
+.main-row {
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    z-index: 999;
+}
+
+.row .links1 {
+    font-size: 13px;
+    font-family: var(--mainFont);
+    justify-self: center;
+}
+.row .links {
+    font-size: 13px;
+    font-family: var(--mainFont);
+    justify-self: center;
+}
+
+.row .links1 .col a{
+    text-decoration: none;
+    color: #000;
+}
+.row .links .col a{
+    text-decoration: none;
+    color: #000;
+}
+
+.row .links1 .col a:hover{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+.row .links .col a:hover{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+
+.burger{
+display: none;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 8px;
+    color: rgb(221, 221, 221);
+    padding: 5px;
+    margin: 10;
+    border-right: 1px solid transparent;
+}
+
+.search-box input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    font-size: 12px;
+    border-left: 1px solid transparent;
+}
+
+.search-box form:focus-within {
+    border-bottom: 2px solid #ccc;
+
+}
+.mainCarousel .d-block{
+    position: relative;
+}
+.mainCarousel .slide1HeadLine,.slide1Price,.slide2HeadLine,.slide2Price{
+    position: absolute;
+}
+.mainCarousel .slide1HeadLine{
+    top: 45%;
+    left: 13%;
+    font-family: var(--mainFont);
+    font-weight: 400;
+    font-size: 28px;
+    color: #000F;
+}
+.mainCarousel .slide1Price{
+    top: 53%;
+    left: 13%;
+    font-family: var(--mainFont);
+    font-weight: 400;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+.mainCarousel .slide2HeadLine{
+    top: 45%;
+    right: 13%;
+    font-family: var(--mainFont);
+    font-weight: 400;
+    font-size: 28px;
+    color: #000F;
+}
+
+.mainCarousel .slide2Price{
+    top: 53%;
+    right: 13%;
+    font-family: var(--mainFont), Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+.fashionSection img {
+margin-top: 80px;
+}
+.fashionSection p{
+    margin-top: 40px;
+    font-family: var(--mainFont), Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size:14px;
+    font-weight: 400;
+    color: #8c8c8c;
+    line-height: 29px;
+}
+.productCarosel{
+    padding: 100px;
+}
+.lastProducts{
+    color: #000;
+    font-family: var(--mainFont), Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-wrapper{
+    display: flex;
+    gap: 40px;
+
+}
+.card-wrapper .card{
+    border: none;
+    cursor: pointer;
+}
+.card h3{
+    color: #000;
+    font-family: var(--mainFont), Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card:hover{
+    h3{
+        color: #c3a376;
+    };
+}
+.productCarosel{
+    position: relative;
+}
+.productCarosel .carousel-control-prev{
+    position: absolute;
+    left:-150px;
+    top: 50%;
+    height: 50px;
+}
+.productCarosel .carousel-control-next{
+    position: absolute;
+    right:-150px;
+    top: 50%;
+    height: 50px;
+}
+a .productbtn{
+    color: #FFF;
+    background-color: rgb(192, 161, 116);
+    font-family :var(--mainFont), Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+a .productbtn:hover{
+    color: #FFF;
+    background-color:#9c825e;
+    font-family :var(--mainFont), Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 0px;
+    border-color: none;
+}
+footer{
+    padding-bottom: 80px;
+}
+footer  .arrow-up{
+    text-decoration: none;
+    color: #bcbcbc;
+    cursor: pointer;
+    &:hover{
+        color: #000;
+    }
+
+}
+.card{
+    width:calc(100%/4);
+}
+footer h3{
+    color: #000;
+    font-size: 16px;
+    font-family :var(--mainFont), Helvetica, Arial, sans-serif;
+    line-height: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+.foot-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-items .links .col a {
+margin: 0 5px;
+}
+
+.foot-items .links .row {
+    justify-content: center;
+    gap: -50px; /* Add space between columns */
+}
+
+.email-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.email-box form {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    width: 90%;
+}
+
+.subscribe-button {
+    font-family :var(--mainFont), Helvetica, Arial, sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    padding: 0 10px;
+
+}
+
+.email-box input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    font-size: 12px;
+    border-left: 1px solid transparent;
+}
+
+.email-box form:focus-within {
+    border-bottom: 2px solid #ccc;
+
+}
+.row .social-media-icons{
+    margin-top: 10px;
+    gap: 5px;
+    padding: 10px;
+    font-size: 13px;
+    color: #bcbcbc;
+    cursor: pointer;
+}
+.social-media-icons a{
+    direction: none;
+    color: #bcbcbc;
+}
+@media (max-width:1200px){
+    .main-links{
+        display: contents;
+    }
+
+    .productCarosel .carousel-control-prev{
+        left: -100px;
+        top: 30%;
+    }
+    .productCarosel .carousel-control-next{
+        right:-100px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 777px) and (min-width: 500px){
+    .card:not(:first-child){
+        display: none;
+    }
+    .card{
+        width:80%;
+        margin: auto;
+    }
+    .productCarosel{
+        padding: 50px;
+    }
+    .productCarosel .carousel-control-prev{
+        left: -50px;
+        top: 30%;
+    }
+    .productCarosel .carousel-control-next{
+        right:-50px;
+        top: 30%;
+    }
+}
+@media (max-width: 500px){
+    .card:not(:first-child){
+        display: none;
+    }
+    .card{
+        width:100%;
+        margin: auto;
+    }
+}
+
+.burger {
+    display: none;
+}
+
+.close-btn {
+    display: none;
+}
+
+
+.links1.active .close-btn {
+    display: block;
+}
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        position: relative;
+        z-index: 1000;
+    }
+
+
+    .main-links .links1 {
+        font-size: 18px;
+        width: 100vw;
+        position: absolute;
+        text-align: center;
+        top: 0; 
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 20px 0;
+        line-height: 20px;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden; 
+        height: 0; 
+        display: none; 
+        flex-direction: column;
+    }
+
+
+    .main-links .links1.active {
+        display: flex;
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .main-links .links1 a span {
+        line-height: 40px;
+        color: #FFF;
+    }
+
+    .main-links .links1 a span:hover {
+        border-bottom: 5px double #FFF;
+        border-radius: 15px;
+    }
+    .search-box {
+        display: none;
+    }
+    .mainCarousel .slide1HeadLine{
+        top: 45%;
+        left: 13%;
+        font-size: 22px;
+    }
+    .mainCarousel .slide1Price{
+        top: 60%;
+        left: 13%;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .mainCarousel .slide2HeadLine{
+        top: 45%;
+        right: 13%;
+        font-size: 22px;
+    }
+    .mainCarousel .slide2Price{
+        top: 60%;
+        right: 13%;
+        font-weight: 400;
+        font-size: 14px;
+}
+
+}
