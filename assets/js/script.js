@@ -9,7 +9,6 @@ document.querySelectorAll('.card-img-top').forEach(img => {
     });
 });
 
-// Toggle the active class on the burger and menu
 document.addEventListener('DOMContentLoaded', function () {
     const burger = document.querySelector('.burger');
     const linksMenu = document.querySelector('.links1');
@@ -20,6 +19,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.getElementById('close-menu').addEventListener('click', function() {
-    // Remove 'active' class to close the menu
     document.querySelector('.links1').classList.remove('active');
 });
