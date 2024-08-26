@@ -21,3 +21,13 @@ document.addEventListener('DOMContentLoaded', function () {
 document.getElementById('close-menu').addEventListener('click', function() {
     document.querySelector('.links1').classList.remove('active');
 });
+
+function closepreloader(){
+    document.querySelector(".preloader").style.display = 'none';
+    document.querySelector(".preloader").style.transition= 'all 2s ease-out';
+}
+window.addEventListener("load",function(){
+    setTimeout(closepreloader, 1000);
+    
+    
+});
