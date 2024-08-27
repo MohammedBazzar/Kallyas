@@ -27,7 +27,7 @@ function closepreloader(){
     document.querySelector(".preloader").style.transition= 'all 2s ease-out';
 }
 window.addEventListener("load",function(){
-    setTimeout(closepreloader, 1000);
+    setTimeout(closepreloader,1000);
     
     
 });
